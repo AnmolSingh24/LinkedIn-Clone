@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header .Header_right_items2 li:hover {
+    color: white;
+    border-bottom: .2rem solid white;
+    padding: 0.5rem 0;
+}
+
+.Header_section {
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-color: gray;
+    height: 60px;
+    position: fixed;
+}
+
+.header-left {
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+}
+
+.header-left-items {
+    display: flex;
+    gap: .6rem;
+}
+
+.header-left-search>.search-bar {
+    background-color: rgb(83, 83, 83);
+    border: none;
+    width: 20vw;
+    height: 5.2vh;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.header-left-search>.search-bar>.bi-bi-search {
+    margin-left: -3rem;
+}
+
+.Header {
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index: 999;
+    justify-content: space-evenly;
+}
+
+.Header_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8%;
+    list-style-type: none;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header_right_items img {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+li {
+    padding: 8px;
+    margin-top: 0.8rem;
+    text-align: center;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+
+.main_section {
+    display: flex;
+    width: 100%;
+    margin-top: 4rem;
+    margin-left: 12%;
+}
+
+.main1 {
+    max-height: 100vh;
+    position: fixed;
+}
+
+.section1>h4 {
+    font-size: 14px;
+}
+
+.section1_items_line {
+    border-bottom: 1px solid darkgray;
+    font-size: 15px;
+}
+
+.section1_items {
+    background-color: rgb(38, 38, 38);
+    font-size: 8px;
+    border-radius: 10px;
+    display: grid;
+    padding: .7rem 1.7rem .6rem;
+    margin-left: 1.5rem;
+    width: 50%;
+    height: 50vh;
+    border: none;
+}
+
+.premium-img {
+    display: flex;
+    gap: .5rem;
+}
+
+.premium-img:hover {
+    background-color: rgb(59, 59, 59);
+    border-radius: 5px;
+}
+
+.premium-img>img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: .3rem;
+    margin-left: .2rem;
+}
+
+.premium-img>.premium-info>h4 {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.section1_items>.section1_items_line>a>.profile-img {
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgb(38, 38, 38);
+    border-radius: 50%;
+    margin-top: .8rem;
+    margin-bottom: 1.5rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.section1 {
+    border-radius: 3px;
+}
+
+.section1:hover {
+    cursor: pointer;
+    /* display: block; */
+    background-color: rgb(97, 96, 96);
+}
+
+.section1,
+h2,
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section1>h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 0rem;
+}
+
+/* .section1,
+h2,
+h3,
+h4:hover {
+    padding: 1px;
+} */
+
+.section1>a {
+    text-decoration: none;
+    color: white;
+}
+
+.section1_items p {
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main2 {
+    margin-left: 13.9rem;
+    margin-right: 3rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: rgb(38, 38, 38);
+    height: 100px;
+    border: none;
+
+
+}
+
+.main2_section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.main2_section>.main_section_items {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: .8rem;
+    border-bottom: 1px solid gray;
+}
+
+.section_items:hover {
+    cursor: pointer;
+    background-color: rgb(112, 110, 110);
+    border-radius: 4px;
+}
+
+.feed-contain {
+    width: 100%;
+    height: 500px;
+}
+
+.feed-container {
+    margin-top: -1.1rem;
+}
+
+.feed1 {
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+}
+
+.feed-header {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem 0.2rem 1.2rem 1rem;
+    align-items: center;
+    font-weight: 800;
+    font-size: 13.2px;
+    height: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.user-like {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.user-react {
+    font-size: 12.5px;
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.user-react>span {
+    color: darkgray;
+}
+
+.user-img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.feed-profile-logo {
+    display: flex;
+    margin-top: .6rem;
+    margin-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.more-info {
+    margin-left: auto;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.user-info {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: 5rem;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12.2px;
+    color: rgb(166, 157, 157);
+}
+
+.post-date {
+    display: flex;
+    margin-left: 5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(166, 157, 157);
+}
+
+.feed-profile-info {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.feed-profile-info,
+#rank {
+    font-size: 13px;
+    padding-left: .7rem;
+}
+
+.feed-profile-info,
+#rank>span {
+    color: darkgrey;
+}
+
+.feed-profile-info,
+p {
+    font-size: 11px;
+    color: white;
+}
+
+#follow {
+    color: rgb(121, 179, 240);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    padding-left: 30rem;
+    margin-top: -1rem;
+    cursor: pointer;
+}
+
+.feed-img {
+    width: 400px;
+    height: 500px;
+    margin-top: 1rem;
+    margin-left: 6.3rem;
+    cursor: pointer;
+}
+
+.reaction-container {
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.reaction-container>.users-reactions {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13.7px;
+    color: rgb(166, 157, 157);
+    ;
+}
+
+.button-container {
+    display: flex;
+    height: 35px;
+    justify-content: space-around;
+    padding-top: 0.6rem;
+}
+
+.reaction-buttons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: .3rem;
+    padding-bottom: .7rem;
+}
+
+/* Feed 2 starts */
+.feed-contain2 {
+    width: 100%;
+    height: 500px;
+    border-top: 1px solid gray;
+}
+
+.feed-container2 {
+    margin-top: 1rem;
+}
+
+.feed2 {
+    margin-top: 0.5rem;
+    height: 50%;
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+}
+
+.feed-header2 {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem 0.2rem 1rem 1rem;
+    align-items: center;
+    font-weight: 800;
+    font-size: 13.2px;
+    height: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.user-like2 {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.user-react2 {
+    padding-left: 0.5rem;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.user-react2>span {
+    color: darkgray;
+}
+
+.user-img2 {
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.feed-profile-logo2 {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.more-info2 {
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.user-info2 {
+    display: flex;
+    margin-top: -2rem;
+    margin-left: 5rem;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: rgb(166, 157, 157);
+}
+
+.post-date2 {
+    display: flex;
+    margin-left: 5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(166, 157, 157);
+}
+
+.feed-profile-info2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.feed-profile-info2,
+#rank2 {
+    font-size: 12px;
+    color: rgb(166, 157, 157);
+}
+
+.feed-profile-info2,
+p {
+    font-size: 13.7px;
+    color: white;
+}
+
+#follow2 {
+    color: rgb(121, 179, 240);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    padding-left: 30rem;
+    margin-top: -1rem;
+    cursor: pointer;
+}
+
+.feed-img2 {
+    margin-top: 1rem;
+    margin-left: 4.3rem;
+    cursor: pointer;
+}
+
+.reaction-container2 {
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.reaction-container2>.users-reactions2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: rgb(166, 157, 157);
+    ;
+}
+
+.section2 {
+    display: flex;
+    gap: .5rem;
+}
+
+.section2 img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.section2 input {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.search_bar {
+    height: 42px;
+    border-radius: 2rem;
+    border: none;
+    border: 1px solid gray;
+    background-color: rgb(38, 38, 38);
+    padding-left: 8px;
+    word-spacing: 1px;
+    font-size: 13px;
+}
+
+/* feed 2 post ends */
+.main3 {
+    width: 220px;
+    height: 250px;
+}
+
+.main3_section {
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+    margin-left: -2.2rem;
+}
+
+.main3_section_items #news {
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.main3_section_items>.linkedininfo {
+    margin-top: -1.5rem;
+    margin-left: 14rem;
+}
+
+.main3_section_items1 {
+    padding-top: 1rem;
+}
+
+.main3_section_items1>.linkedinnews {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0px;
+    margin-left: .9rem;
+    border-radius: 5px;
+}
+
+.main3_section_items1>.linkedinnews:hover {
+    background-color: rgb(69, 69, 69);
+}
+
+.linkedinnews>.desc {
+    padding-left: .7rem;
+    font-size: 12px;
+    color: darkgray;
+}
+
+.main3_section_items1>.more {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 2rem;
+    padding: 7px;
+}
+
+.main3_section_items1>.more:hover {
+    cursor: pointer;
+    background-color: rgb(69, 69, 69);
+    border-radius: 5px;
+}
+
+.ad-container {
+    margin-top: 0.6rem;
+    width: 300px;
+}
+
+.linkedin-ad-container {
+    display: flex;
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+    height: 250px;
+    margin-right: 5rem;
+    margin-left: -2.2rem;
+}
+
+.linkedin-ad-item {
+    padding-top: .6rem;
+    cursor: pointer;
+}
+
+.linkedin-ad-info{
+    margin-top: -14rem;
+    margin-left: -2rem;
+    margin-right: 5rem;
+}
+
+.linkedin-ad-container>#ad {
+    display: flex;
+    margin-left: 12rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.linkedin-ad-info>b {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+
+.linkedin-ad-info>#view {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ad-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 3rem;
+}
+
+.ad-link-premium {
+    width: 70px;
+    height: 70px;
+}
+
+.linkedin-ad-info>#trial {
+    width: 30%;
+    padding: 0.5rem;
+    text-align: center;
+    margin-left: 5rem;
+    border: 1px solid rgb(45, 157, 189);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.footer {
+    width: 500px;
+    height: 500px;
+    margin-top: 2rem;
+}
+
+.footer-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: .7rem;
+    line-height: 1.3rem;
+    margin-left: -2rem;
+    padding: 3px 5px 5px 2rem;
+    word-spacing: 10px;
+    color: darkgray;
+    cursor: pointer;
+}
+
+.footer-item p {
+    word-spacing: 10px;
+}
+
+.footer-linkedin-link {
+    text-align: center;
+    margin-left: -1.9rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+}
+
+/* Footer ends */

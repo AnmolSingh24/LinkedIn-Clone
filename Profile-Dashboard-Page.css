@@ -1,0 +1,1781 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Header section starts */
+header .header_right_items2 li:hover {
+    color: white;
+    border-bottom: .2rem solid white;
+    padding: 0.5rem 0;
+}
+
+.header_section {
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    border-color: gray;
+    height: 60px;
+    position: fixed;
+    z-index: 10;
+}
+
+.header-left {
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+}
+
+.header-left-items {
+    display: flex;
+    gap: .6rem;
+}
+
+.header-left-search>.search-bar {
+    background-color: rgb(83, 83, 83);
+    border: none;
+    width: 20vw;
+    height: 5.2vh;
+    border-radius: 5px;
+}
+
+.header-left-search>.search-bar>.bi-bi-search {
+    margin-left: -3rem;
+}
+
+.header {
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index: 999;
+    justify-content: space-evenly;
+    /* position: sticky; */
+}
+
+.header_right {
+    display: flex;
+    /* position: fixed; */
+    justify-content: center;
+    align-items: center;
+    margin-right: 8%;
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    /* position: sticky; */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.header_right_items img {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+li {
+    padding: 8px;
+    margin-top: 0.8rem;
+    text-align: center;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+
+.main_section {
+    display: flex;
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: 12%;
+}
+
+/* Profile section starts */
+
+.profile-main-1 {
+    width: 50vw;
+    margin-left: 15rem;
+}
+
+.profile-main-1-section {
+    width: 50vw;
+    margin-left: -3rem;
+    height: 90px;
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+    margin-top: 3.5rem;
+    margin-bottom: .6rem;
+}
+
+.profile-main-1-section-items {
+    padding-left: 10px;
+}
+
+.top-bar {
+    display: flex;
+    padding-top: 1.8rem;
+    padding-left: 44rem;
+    cursor: pointer;
+}
+
+.tools {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: -1.5rem;
+    margin-left: 1.5rem;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.insights {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin-top: -0.5rem;
+    margin-left: 1.4rem;
+    padding-bottom: 2rem;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.insights #span1 {
+    font-weight: bold;
+    color: white;
+}
+
+.insights #span2 {
+    font-weight: bold;
+    color: rgb(85, 196, 85);
+}
+
+/* Analysis section ends */
+
+/* Profile section starts */
+
+.profile-main-2-section-items {
+    width: 50vw;
+    margin-left: -3rem;
+}
+
+.main-content {
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+    height: 630px;
+    margin-top: -.2rem;
+}
+
+.main-content>.profile-images>.profile {
+    width: 150px;
+    height: 150px;
+    border: 4px solid rgb(38, 38, 38);
+    border-radius: 50%;
+    margin-top: -5rem;
+    margin-left: 1.7rem;
+    cursor: pointer;
+}
+
+.main-content>.profile-images>.background {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    cursor: pointer;
+}
+
+.main-content>.Edit-Info {
+    padding-left: 44.5rem;
+    cursor: pointer;
+}
+
+.main-content>h1 {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 25px;
+}
+
+.main-content>h1>span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(194, 193, 193);
+}
+
+.main-content>h4 {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 25px;
+    font-size: 17px;
+    padding-top: 4px;
+}
+
+.main-content>#hash {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 25px;
+    font-size: 13.5px;
+    padding-top: 4px;
+    color: darkgray;
+}
+
+.main-content>#location {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 25px;
+    font-size: 13.5px;
+    padding-top: 4px;
+    color: darkgray;
+}
+
+.main-content>#location>.contact-span {
+    color: rgb(109, 178, 218);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#follows {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-left: 25px;
+    font-size: 13.5px;
+    padding-top: 4px;
+    color: rgb(109, 178, 218);
+    cursor: pointer;
+}
+
+h3,
+#hash,
+#location,
+.contact-span,
+#follows {
+    line-height: 1.4rem;
+}
+
+#work {
+    width: 9%;
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: 1.8rem;
+    border: 1px solid rgb(45, 157, 189);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(109, 178, 218);
+    color: rgb(38, 38, 38);
+    cursor: pointer;
+}
+
+#work:hover {
+    background-color: rgb(207, 229, 236);
+}
+
+#section {
+    width: 23%;
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: -3.1rem;
+    margin-bottom: 1rem;
+    margin-left: 8.3rem;
+    border: 1px solid rgb(45, 157, 189);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(109, 178, 218);
+    cursor: pointer;
+}
+
+#section:hover {
+    background-color: rgba(109, 178, 218, 0.9);
+    color: rgb(38, 38, 38);
+}
+
+#more {
+    width: 10%;
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: -3.1rem;
+    margin-bottom: 1rem;
+    margin-left: 21.6rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(109, 178, 218);
+    cursor: pointer;
+}
+
+#more:hover {
+    background-color: rgba(255, 255, 255, 0.769);
+    color: rgb(38, 38, 38);
+}
+
+/* Working section starts */
+
+.working-roles {
+    width: 35vw;
+    height: 70px;
+    padding-top: .9rem;
+    display: flex;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: rgb(60, 61, 64);
+    border-radius: 10px;
+    margin: 1.5rem;
+}
+
+.working-roles>.write {
+    padding-left: 31.5rem;
+    cursor: pointer;
+}
+
+.working-roles-info {
+    position: relative;
+    padding-top: 2.2rem;
+    padding-left: 1.5rem;
+}
+
+.working-roles-info>#open-work {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.working-roles-info>#roles {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding-top: .3rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+.working-roles-info>span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(109, 178, 218);
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+/* Working section ends */
+/* Profile section ends */
+
+/* Creator section starts */
+
+.Creator-Container {
+    width: 50vw;
+    margin-left: -3rem;
+    height: 250px;
+    margin-top: .4rem;
+}
+
+.Creator-Container>.Creator-Content {
+    border-radius: 10px;
+    background-color: rgb(38, 38, 38);
+}
+
+.Creator-Content>h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17.7px;
+    padding-left: 1.5rem;
+    padding-top: 20px;
+}
+
+.Creator-Content>#private {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-left: 1.5rem;
+    color: darkgray;
+}
+
+.Creator-Content>#creator {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 3rem;
+    cursor: pointer;
+}
+
+.Creator-Content>#creator:hover {
+    color: rgb(109, 178, 218);
+    text-decoration: underline;
+}
+
+.Creator-Content>#creator>span {
+    background-color: rgb(0, 128, 43);
+    padding: 1px 8px 1px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Creator-Content>.resources-info {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17.5px;
+    display: flex;
+    gap: .5rem;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.resources-info:hover {
+    background-color: rgb(59, 59, 59);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.Creator-Content>#info {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13.8px;
+    font-weight: bold;
+    padding-left: 3rem;
+    padding-bottom: 15px;
+    border-bottom: 0.1px solid darkgray;
+    cursor: pointer;
+}
+
+.Creator-Content>#network {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 3rem;
+    cursor: pointer;
+}
+
+.Creator-Content>#network:hover {
+    color: rgb(109, 178, 218);
+    text-decoration: underline;
+}
+
+.Creator-Content>#connections {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13.8px;
+    font-weight: bold;
+    padding-left: 3rem;
+    padding-bottom: 15px;
+    border-bottom: 0.1px solid darkgray;
+    cursor: pointer;
+}
+
+.Creator-Content>a>h4 {
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 19rem;
+    text-align: center;
+    height: 35px;
+    color: white;
+}
+
+/* Creator section ends */
+
+/* Featured section starts */
+
+.Featured-Container {
+    width: 50vw;
+    margin-left: -3rem;
+    height: 300px;
+}
+
+.Featured-Content {
+    margin-top: -1.8rem;
+    border-radius: 10px;
+    background-color: rgb(38, 38, 38);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.Featured-Posts-Contents {
+    position: absolute;
+    display: flex;
+    top: .2rem;
+    right: 2rem;
+}
+
+.Featured-Posts-Contents>.Add-Post {
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+.Featured-Posts-Contents>.Edit-Post {
+    padding-top: 1rem;
+    padding-left: 1.9rem;
+    cursor: pointer;
+}
+
+.Featured-Content>h3 {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    padding-top: -1rem;
+    padding-left: 1.5rem;
+}
+
+.Featured-Posts {
+    display: flex;
+}
+
+.Posts {
+    width: 44%;
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: .6rem;
+}
+
+#post1 {
+    padding-left: 1.5rem;
+}
+
+#post-details {
+    padding-top: .3rem;
+    padding-left: 1.5rem;
+    font-size: 13px;
+
+}
+
+.Posts>p>span {
+    color: rgb(109, 178, 218);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Posts>img {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.Posts>#post1 {
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    color: darkgray;
+}
+
+/* Featured section ends */
+
+/* Activity section starts */
+
+.Activity-Container {
+    width: 50vw;
+    margin-left: -3rem;
+}
+
+.Activity-Content {
+    border-radius: 10px;
+    margin-top: 2.2rem;
+    background-color: rgb(38, 38, 38);
+    position: relative;
+}
+
+.Post-Content {
+    display: flex;
+}
+
+.Post-Content-Items {
+    top: .2rem;
+    right: .3rem;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 1.8rem;
+}
+
+.Post-Content-Items>#create-post {
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: 1.2rem;
+    border: 1px solid rgb(45, 157, 189);
+    color: rgb(45, 157, 189);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Post-Content-Items>.Edit-Posts {
+    padding-top: 1rem;
+}
+
+.Activity-Content>h3 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.Activity-Content>#followers {
+    padding-left: 1.5rem;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(45, 157, 189);
+}
+
+#activity-post {
+    width: 8%;
+    padding: 0.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: .8rem;
+    margin-left: 1.5rem;
+    border: 1px solid rgb(45, 157, 189);
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background: rgb(109, 218, 164);
+    color: rgb(38, 38, 38);
+    cursor: pointer;
+}
+
+#activity-post:hover {
+    background-color: rgb(198, 236, 208);
+}
+
+#activity-comment {
+    width: 11%;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -3.2rem;
+    margin-bottom: 1rem;
+    margin-left: 7rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+#activity-comment:hover {
+    background-color: rgba(109, 218, 164, 0.9);
+    color: rgb(38, 38, 38);
+}
+
+#activity-images {
+    width: 8%;
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: -3.3rem;
+    margin-bottom: 1rem;
+    margin-left: 14rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+#activity-images:hover {
+    background-color: rgba(109, 218, 164, 0.9);
+    color: rgb(38, 38, 38);
+}
+
+.Post1 {
+    border-bottom: 1px solid darkgray;
+}
+
+.Post1>.Post-Items {
+    display: flex;
+    padding: 1rem 0;
+    gap: 1rem;
+    padding-left: 1.5rem;
+}
+
+.Post1 #img1 {
+    height: 70px;
+    width: 90px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#post-date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: darkgray;
+    padding-top: .5rem;
+    padding-left: 1.5rem;
+    cursor: pointer;
+}
+
+.Post1>.Post-Items>#post-info {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    padding-left: .1rem;
+}
+
+.Post1>.Post-Items>#post-info>span {
+    font-weight: bold;
+    color: rgb(103, 180, 216);
+    cursor: pointer;
+}
+
+.activity-more {
+    display: flex;
+}
+
+.activity-more:hover {
+    background-color: rgb(59, 59, 59);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.activity-more>.activity-more-info {
+    padding-top: .6rem;
+}
+
+.Activity-Content>.activity-more>p {
+    height: 30px;
+    padding-top: 1rem;
+    padding-left: 20.9rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Activity section ends */
+
+/* About section starts */
+
+.About-Container {
+    width: 50vw;
+    margin-left: -3rem;
+}
+
+.About-Content {
+    margin-top: -.7rem;
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+    padding-top: 1rem;
+}
+
+.About-Content-Item-Container {
+    justify-content: flex-end;
+    align-items: end;
+    position: absolute;
+}
+
+.About-Content-Item {
+    display: flex;
+    top: .2rem;
+    right: -44.5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.About-Content>h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    padding-top: .3rem;
+    padding-left: 1.5rem;
+    cursor: pointer;
+}
+
+.About-Content>#about-info {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.About-Content>#see-more {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: darkgray;
+    padding-bottom: 1rem;
+    padding-left: 40.5rem;
+    cursor: pointer;
+}
+
+/* About section ends */
+
+/* Experience section starts */
+
+.Experience-Container {
+    width: 50vw;
+    margin-left: -3rem;
+}
+
+.Experience-Content {
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+    margin-top: -.7rem;
+}
+
+.Experience-Content-Items {
+    position: absolute;
+    display: flex;
+    padding-top: 0.8rem;
+    padding-left: 41rem;
+}
+
+.Experience-Container-Items {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Experience-Content>h3 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.Experience-Items-Container {
+    display: flex;
+    gap: .6rem;
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.Experience-Items-Container>img {
+    padding-top: .8rem;
+    padding-left: 2rem;
+    width: 60px;
+    height: 60px;
+}
+
+.Experience-Items {
+    padding-top: 1rem;
+}
+
+.Experience-Items>h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.Experience-Items>#doj,
+#city {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: darkgrey;
+}
+
+.Experience-Items>#program {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13.5px;
+    font-weight: bold;
+}
+
+/* Experience section ends */
+
+/* Education section starts */
+
+.Education-Container {
+    width: 50vw;
+    margin-left: -3rem;
+}
+
+.Education-Content {
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+    margin-top: -.7rem;
+}
+
+.Education-Content-Items {
+    display: flex;
+    position: absolute;
+}
+
+.Education-Content-Item-1 {
+    position: relative;
+    top: 1rem;
+    right: -41rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Education-Content>h3 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1.4rem;
+    padding-left: 1.5rem;
+
+}
+
+.Education-Content>.Education-Content-Items-Info {
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid darkgray;
+    display: flex;
+    gap: .6rem;
+}
+
+.Education-Content-Items-Info>div>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.4rem;
+}
+
+.Education-Content-Items-Info>div>h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(82, 153, 212);
+}
+
+.Education-Content-Items-Info>img {
+    width: 50px;
+    height: 50px;
+}
+
+.Education-Content>.Education-Content-Items-Info:nth-of-type(4) {
+    border: none;
+}
+
+.Education-Content-Items-Info>h4 {
+    font-size: 16px;
+    line-height: 2rem;
+    cursor: pointer;
+}
+
+.Education-Content-Items-Info>h4:hover {
+    text-decoration: underline;
+    color: rgb(82, 153, 212);
+}
+
+.Education-Content-Items-Info>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.2rem;
+    word-spacing: .1rem;
+    cursor: pointer;
+}
+
+/* Education section ends */
+
+/* Volunteering section starts */
+
+.Volunteering-Container {
+    width: 50vw;
+    margin-left: -3rem;
+}
+
+.Volunteering-Content {
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+    margin-top: -.7rem;
+}
+
+.Volunteering-Content-Item-Container {
+    display: flex;
+    gap: 1.5rem;
+    padding-top: 1.5rem;
+    padding-left: 41.5rem;
+    position: absolute;
+}
+
+.Volunteering-Content>h2 {
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.Role-1,
+.Role-2,
+.Role-3 {
+    display: flex;
+    border-bottom: 1px solid darkgray;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 1rem;
+    font-size: 14px;
+    gap: 0.8rem;
+}
+
+.Volunteering-Content>.Role-3 {
+    border: none;
+}
+
+.Roles-Info {
+    padding-top: 1rem;
+}
+
+.Volunteering-Content>.Role-1>img {
+    width: 50px;
+    height: 50px;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.Volunteering-Content>.Role-2>img {
+    width: 50px;
+    height: 50px;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.Volunteering-Content>.Role-3>img {
+    width: 50px;
+    height: 50px;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.Roles-Info>h3,
+#company {
+    line-height: 1.3rem;
+}
+
+.Roles-Info>#date,
+#field {
+    font-size: 12px;
+    line-height: 1.1rem;
+    color: darkgray;
+}
+
+/* Volunteering section ends */
+
+/* Skills section starts */
+.Skills-Container {
+    width: 50vw;
+    margin-left: -3rem;
+}
+
+.Skills-Content {
+    margin-top: -.7rem;
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+}
+
+.Skills-Content-Heading {
+    display: flex;
+    padding-top: 1rem;
+    padding-left: 33.7rem;
+    position: absolute;
+}
+
+.Skills-Content-Heading>#quiz {
+    width: 6vw;
+    height: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(143, 186, 222);
+    border: 1px solid rgb(82, 153, 212);
+    border-radius: 60px;
+}
+
+.Skills-Content-Heading>#quiz,
+.Skills-Content-Heading-Item {
+    padding: 10px;
+}
+
+.Skills-Content>h3 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.Skills-Content>h4 {
+    font-size: 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    border-bottom: 1px solid darkgray;
+    cursor: pointer;
+}
+
+.Skills-Content>h4:hover {
+    text-decoration: underline;
+    color: rgb(82, 153, 212);
+}
+
+.Skills-Content-Footer {
+    height: 25px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.Skills-Content-Footer,
+.Skills-Content-Footer-Item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.Skills-Content-Footer:hover {
+    background-color: rgb(59, 59, 59);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Skills section ends */
+
+/* Top Voices section starts */
+
+.Top-Voices-Container {
+    width: 50vw;
+    margin-left: -3rem;
+}
+
+.Top-Voices-Content {
+    margin-top: -.7rem;
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+}
+
+.Top-Voices-Content>h3 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.Navbars {
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 0;
+}
+
+.Navbars>.Navbar-Items {
+    display: flex;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 30rem;
+}
+
+.Navbars>.Navbar-Items li:hover {
+    color: rgb(126, 227, 160);
+    border-bottom: .1rem solid rgb(126, 227, 160);
+}
+
+.Top-Voices-Items-Container {
+    display: flex;
+}
+
+.Top-Voices-Items-Container>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+.Top-Voices-Items-Container>.Top-Voices-Items {
+    padding-top: 1.4rem;
+    padding-left: .6rem;
+}
+
+.Top-Voices-Items>h4 {
+    line-height: 1.4rem;
+    cursor: pointer;
+}
+
+.Top-Voices-Items>h4:hover {
+    text-decoration: underline;
+    color: rgb(82, 153, 212);
+}
+
+.Top-Voices-Items>#status,
+#famous {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 1.3rem;
+    cursor: pointer;
+}
+
+.Top-Voices-Items>#famous {
+    color: darkgray;
+    cursor: pointer;
+}
+
+.Following {
+    width: 70%;
+    display: flex;
+    border: 2px solid darkgray;
+    border-radius: 70px;
+    padding: 5px .6rem 5px .6rem;
+    margin-top: .6rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.Following>.Following-Item>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: .6rem;
+}
+
+/* Top Voices section ends */
+
+/* Aside section starts*/
+.profile-url-container {
+    width: 20vw;
+    margin-left: 46.5rem;
+    margin-top: -216.5rem;
+}
+
+.profile-url-content {
+    height: 17vh;
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+}
+
+.profile-url-content-items {
+    display: flex;
+    border-bottom: 1px solid darkgray;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.profile-url-content-items:hover {
+    text-decoration: underline;
+    color: rgb(82, 153, 212);
+}
+
+.profile-url-content-items:nth-last-child(1) {
+    border-bottom: 0;
+}
+
+.profile-url-content-items>p {
+    color: darkgray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13.5px;
+    font-weight: bold;
+}
+
+.profile-url-question {
+    padding-left: 7rem;
+}
+
+.aside-ad-container {
+    width: 23.6vw;
+    margin-top: -.8rem;
+}
+
+.aside-linkedin-ad {
+    display: flex;
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+    height: 230px;
+    margin-right: 3.5rem;
+    margin-left: auto;
+}
+
+.aside-linkedin-ad-more {
+    margin-top: .6rem;
+    cursor: pointer;
+}
+
+.aside-linkedin-ad>#aside-ad {
+    display: flex;
+    margin-left: 14.7rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.aside-linkedin-ad-info {
+    margin-top: -12.5rem;
+}
+
+.aside-linkedin-ad-info>b {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 3.5rem;
+}
+
+.aside-linkedin-ad-info>#aside-view {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.aside-ad-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 5rem;
+}
+
+.aside-ad-link-premium {
+    width: 70px;
+    height: 70px;
+}
+
+.aside-linkedin-ad-info>#aside-trial {
+    width: 30%;
+    padding: 0.5rem;
+    text-align: center;
+    margin-left: 5.5rem;
+    border: 1px solid rgb(45, 157, 189);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.suggestion-list-container {
+    width: 19.9vw;
+}
+
+.suggestion-list-content {
+    margin-top: 1rem;
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+}
+
+.suggestion-list-content>h4 {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    font-size: 16px;
+}
+
+.suggestion-list-content-img {
+    display: flex;
+    margin-top: 1rem;
+    gap: .7rem;
+    /* margin-bottom: 2rem; */
+    line-height: 1.8rem;
+}
+
+.suggestion-list-content-img>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+.suggestion-list>h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.suggestion-list>h5>span {
+    font-size: 13px;
+}
+
+.suggestion-list>h5:hover {
+    text-decoration: underline;
+    color: rgb(94, 160, 214);
+}
+
+.suggestion-list>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.suggestion-list-content-img {
+    border-bottom: 1px solid darkgray;
+    padding-bottom: .8rem;
+}
+
+.suggestion-list-content-img:nth-last-of-type(1) {
+    border-bottom: 0;
+}
+
+.follow-container {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-top: .4rem;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.follow-container:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.follow-content>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12.5px;
+}
+
+.activity-more {
+    display: flex;
+}
+
+.activity-more:hover {
+    background-color: rgb(59, 59, 59);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.suggestion-list-content>.activity-more-info {
+    padding-top: .4rem;
+}
+
+.suggestion-list-content>.activity-more>p {
+    height: 28px;
+    padding-top: .3rem;
+    padding-left: 7rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.aside-connections-container {
+    width: 19rem;
+}
+
+.aside-connections-content {
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+    height: 685px;
+    margin-top: -.8rem;
+}
+
+.aside-connections-content>h4 {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    font-size: 16px;
+}
+
+.aside-connections-img {
+    display: flex;
+    border-bottom: 1px solid darkgray;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    gap: .6rem;
+    line-height: 1.5rem;
+}
+
+.aside-connections-img>img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+.aside-connections-img:nth-last-of-type(1) {
+    border-bottom: 0;
+}
+
+.aside-connections-info>h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.aside-connections-info>h5>span {
+    font-size: 13px;
+}
+
+.suggestion-list>h5:hover {
+    text-decoration: underline;
+    color: rgb(94, 160, 214);
+}
+
+.aside-connections-info>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.connect-container {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-top: .4rem;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.connect-container:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.connect-content>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12.5px;
+}
+
+.activity-more {
+    display: flex;
+}
+
+.activity-more:hover {
+    background-color: rgb(59, 59, 59);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.aside-connections-content>.activity-more-info {
+    padding-top: .4rem;
+}
+
+.aside-connections-content>.activity-more>p {
+    height: 28px;
+    padding-top: .3rem;
+    padding-left: 7rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.aside-group-suggestion-container {
+    width: 19rem;
+}
+
+.aside-group-suggestion-content {
+    background-color: rgb(38, 38, 38);
+    border-radius: 10px;
+    margin-top: -.8rem;
+}
+
+.aside-group-suggestion-content>h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.aside-group-content-item>h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-left: 1.5rem;
+}
+
+.aside-group-content-item {
+    border-bottom: 1px solid;
+}
+
+.aside-group-info {
+    display: flex;
+    border-bottom: 1px solid darkgray;
+    gap: .6rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.aside-group-info:last-child {
+    border-bottom: 0;
+}
+
+.aside-group-info>img {
+    width: 50px;
+    height: 50px;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+.aside-group-info-item>h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-bottom: .2rem;
+    cursor: pointer;
+}
+
+.aside-group-info-item>h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-bottom: .2rem;
+}
+
+.aside-group-info-item>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.join-container {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-top: .4rem;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.join-container:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.join-content>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12.5px;
+}
+
+.activity-more {
+    display: flex;
+}
+
+.activity-more:hover {
+    background-color: rgb(59, 59, 59);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.activity-more>.activity-more-info {
+    padding-top: .9rem;
+}
+
+.aside-group-suggestion-content>.activity-more>p {
+    height: 25px;
+    padding-top: .8rem;
+    padding-left: 7rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Aside section ends */
+
+/* Footer section starts */
+.Footer {
+    width: 100vw;
+    margin-left: 12.5rem;
+}
+
+.Footer-Container {
+    margin-top: 60rem;
+    height: 50%;
+}
+
+.Footer-Container>section {
+    display: flex;
+    flex-direction: row;
+}
+
+.Footer-Content-Items-1 {
+    line-height: 2rem;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Footer-Content-Items-1>p:hover {
+    text-decoration: underline;
+    color: rgb(82, 153, 212);
+}
+
+
+.Footer-Content-Items-2 {
+    margin-left: 5rem;
+    line-height: 2rem;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Footer-Content-Items-2>p:hover {
+    text-decoration: underline;
+    color: rgb(82, 153, 212);
+}
+
+.Footer-Content-Items-3 {
+    margin-left: 5rem;
+    line-height: 2rem;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Footer-Content-Items-3>p:hover {
+    text-decoration: underline;
+    color: rgb(82, 153, 212);
+}
+
+.Footer-Content-Items-4 {
+    margin-left: 5rem;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.Footer-Content-Items {
+    display: flex;
+    gap: .7rem;
+    padding-bottom: 1rem;
+
+}
+
+.Footer-Content-Items svg {
+    margin: 0;
+}
+
+.Footer-Content-Items>.Footer-Content-Items-Info {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Footer-Content-Items-Info>.Help-Links:hover {
+    text-decoration: underline;
+    color: rgb(82, 153, 212);
+}
+
+.Footer-Language-Container {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Footer-Language-Container>p {
+    padding-bottom: .3rem;
+}
+
+.Footer-Language-Container>#Language-Content {
+    background-color: rgb(56, 56, 56);
+    padding: 5px;
+    border: 3px solid rgb(224, 222, 222);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Copyright {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
